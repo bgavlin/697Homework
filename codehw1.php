@@ -8,9 +8,9 @@
 <?php
 
 //Change should be in cents
-$change = 274;
+$change = 245;
 
-//floor is used to round to the closest whole number
+//floor is used to round to the next lowest whole number
 If ($change >= 0) {
     echo "You are due back " . $change . " cents in change total.";
     
@@ -35,11 +35,10 @@ If ($change >= 0) {
 //else statement is added in case a negative number is entered
 else
 {
-    echo "You have no change";
+    echo "You owe me money!";
 }
 
-?>
-
+?> 
 
 <h1> Challenge: 99 Bottles of Beer </h1>
    
